@@ -25,7 +25,6 @@ class _NamazTimeState extends State<NamazTime> {
     return InkWell(
       onTap: () {
         count++;
-        print("TimeNamaz clicked +${count % 5}");
 
         setState(() {
           switch (count % 5) {
